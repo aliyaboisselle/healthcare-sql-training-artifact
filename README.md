@@ -46,7 +46,7 @@ Whether you're preparing for a BID interview, upskilling as an analyst, or maint
 - Unlocks after your first proficiency exam
 - Tracks weakness categories (e.g. Window Functions, LEFT JOIN, CTEs) identified from exam results
 - Generates targeted questions drilling exactly those areas
-= Re-taking the exam updates only tested categories — untested weaknesses are preserved
+- Re-taking the exam updates only tested categories — untested weaknesses are preserved
 
 ### Scoring (0–100)
 - Every submission is graded across four weighted criteria:
