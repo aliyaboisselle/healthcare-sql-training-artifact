@@ -1,8 +1,13 @@
 # healthcare-sql-training-artifact
+
 *An interactive, AI-powered SQL learning and assessment platform purpose-built for healthcare data professionals. Designed to help analysts, Business Intelligence Developers (BIDs), and solutions architects sharpen their PostgreSQL skills using real-world healthcare scenarios.*
 
-Built on the Claude.ai artifact platform using the Anthropic API.
+Built on the Claude.ai artifact platform using the Anthropic API. Artifacts require using Claude to run and inputs are sent to Anthropic's API to run. 
+No API keys are included. Do not add your API key to this frontend code. Backend proxy required for production use outside of Claude.
 
+**This tool is for educational purposes only and should not be used with real patient data. The questions involve clinical terminology and healthcare workflows, but are fictional and not clinically validated.**
+
+![Image of tool UI](https://github.com/aliyaboisselle/healthcare-sql-training-artifact/blob/Demos/SQL%20training%20tool.png)
 
 ## Purpose
 Healthcare data environments are complex — ADT workflows, ICD coding, pharmacy dispensing, lab results, claims processing, and more all produce distinct data structures and query patterns. Generic SQL courses don't prepare you for this. This tool does.
@@ -139,6 +144,34 @@ Patient demographics & registration · Inpatient admissions & discharges (ADT) �
 
 **Expert**
 - Advanced window framing, gap-and-island problems, SCD Type 2 patterns, ROLLUP/CUBE, INSERT ON CONFLICT, EXPLAIN ANALYZE, materialized views, partitioned tables, PL/pgSQL functions, full-text search, advanced JSONB, row-level security, schema design, multi-step ETL, trigger logic
+
+## Architecture
+
+This tool runs as a React frontend artifact inside Claude.ai.
+
+High-level flow:
+
+User → React UI → Anthropic API → Evaluation → Feedback → UI
+
+Security model:
+
+- No API keys stored in frontend
+- Production deployments require backend proxy
+- No real healthcare data used
+
+Core components:
+
+- Question generation engine
+- SQL evaluation system
+- Weakness tracking module
+- Adaptive exam engine
+- XP and progression system
+
+## Future Improvements
+
+- Backend proxy for production deployment
+- Support for additional SQL dialects (T-SQL, Oracle)
+- Improved healthcare realism
 
 ## License
 *MIT — free to use, adapt, and share.*
