@@ -10,6 +10,8 @@ Whether you're preparing for a BID interview, upskilling as an analyst, or maint
 
 ## Demo
 
+*Displays the SQL query question and evaluation functionality*
+
 ![Demo Recording](Sql-training.gif)
 
 ## Features
