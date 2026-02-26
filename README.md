@@ -12,7 +12,7 @@ Whether you're preparing for a BID interview, upskilling as an analyst, or maint
 
 *Displays the SQL query question and evaluation functionality*
 
-![Demo Recording](Sql-training.gif)
+![Demo Recording](https://github.com/aliyaboisselle/healthcare-sql-training-artifact/blob/Demos/Sql-training.gif)
 
 ## Features
 
