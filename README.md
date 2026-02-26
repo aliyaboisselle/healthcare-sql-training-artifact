@@ -8,6 +8,12 @@ Built on the Claude.ai artifact platform using the Anthropic API.
 Healthcare data environments are complex — ADT workflows, ICD coding, pharmacy dispensing, lab results, claims processing, and more all produce distinct data structures and query patterns. Generic SQL courses don't prepare you for this. This tool does.
 Whether you're preparing for a BID interview, upskilling as an analyst, or maintaining sharp query skills as an architect, this tool adapts to your level and tracks your growth over time.
 
+## Demo
+
+*Displays the SQL query question and evaluation functionality*
+
+![Demo Recording](Sql-training.gif)
+
 ## Features
 
 ### Query Writing
